@@ -1,3 +1,9 @@
 body {background-color: black;}
 h1 {color: white;}
 p {color: white;}
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
