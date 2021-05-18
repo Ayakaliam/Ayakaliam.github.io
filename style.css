@@ -1,4 +1,30 @@
+
+*,
+*::before
+*::after {
+    box-sizing: border-box;
+}
+
+
 body {background-color: black;}
 h1 {color: #36c2ff;}
 h2 {color: #ff3636;}
 p {color: #36c2ff;}
+ 
+
+body,
+h1,
+h2,
+h3,
+p {margin: 0;}
+
+section {
+    padding: 3rem;
+
+}
+
+.container { 
+    margin-inline: auto;
+    width: min (90%, 70.5rem)
+
+}
