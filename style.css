@@ -10,7 +10,17 @@ body {background-color: black;}
 h1 {color: #36c2ff;}
 h2 {color: #ff3636;}
 p {color: #36c2ff;}
- 
+
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.split {
+    display: flex;
+}
 
 body,
 h1,
@@ -18,6 +28,13 @@ h2,
 h3,
 p {margin: 0;}
 
+h1,
+h2,
+h3 {
+    margin-bottom: 1em;
+}
+
+header,
 section {
     padding: 3rem;
 
@@ -26,5 +43,5 @@ section {
 .container { 
     margin-inline: auto;
     width: min (90%, 70.5rem)
-
+   
 }
