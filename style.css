@@ -12,6 +12,12 @@ h2 {color: #ff3636;}
 p {color: #36c2ff;}
 
 
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .center {
     display: flex;
     justify-content: center;
@@ -26,6 +32,9 @@ h2 {
    text-align: center; 
 }
 
+img {
+    max-width: 100%;
+}
 
 body,
 h1,
@@ -47,6 +56,5 @@ section {
 
 .container { 
     margin-inline: auto;
-    width: min (90%, 70.5rem);
-   
-}
+    width: min(100%, 70.5rem);
+   }
