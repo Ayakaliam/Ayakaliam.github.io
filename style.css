@@ -22,6 +22,11 @@ p {color: #36c2ff;}
     display: flex;
 }
 
+h2 {
+   text-align: center; 
+}
+
+
 body,
 h1,
 h2,
@@ -42,6 +47,6 @@ section {
 
 .container { 
     margin-inline: auto;
-    width: min (90%, 70.5rem)
+    width: min (90%, 30rem)
    
 }
