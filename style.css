@@ -27,6 +27,14 @@ header {
 
 .split {
     display: flex;
+    justify-content: center;ß
+    align-items: center;
+ 
+}
+ß
+p {
+    text-align: center;
+
 }
 
 h2 {
@@ -57,5 +65,5 @@ section {
 
 .container { 
     margin: 0 auto;
-    width: min(90%, 70.5rem);
+    width: min(95%, 70.5rem);
    }
