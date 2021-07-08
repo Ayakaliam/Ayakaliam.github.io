@@ -17,7 +17,13 @@ header {
         justify-content: center;
         align-items: center; 
     }
-}
+
+footer {
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+    }
+
 
 .center {
     display: flex;
@@ -27,19 +33,25 @@ header {
 
 .split {
     display: flex;
-    justify-content: center;ß
+    justify-content: center;
     align-items: center;
- 
-}
-ß
+ }
+
 p {
-    text-align: center;
+   /* text-align: center; */
 
 }
 
+img {
+    max-width: 100%;
+    
+}
 h2 {
    text-align: center; 
 }
+
+
+
 
 .lastbot {
     width: 100%;
