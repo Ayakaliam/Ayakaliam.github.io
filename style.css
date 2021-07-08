@@ -6,10 +6,10 @@
 }
 
 
-body {background-color: black;}
+body {background-color: black; }
 h1 {color: #36c2ff;}
 h2 {color: #ff3636;}
-p {color: #36c2ff;}
+p {color: #36c2ff; font-family: 'acier-bat-solid',sans-serif;}
 
 
 header {
@@ -32,19 +32,13 @@ footer {
 }
 
 .split {
-<<<<<<< HEAD
-    display: flex;
+   display: flex;
     justify-content: center;
     align-items: center;
-=======
-   /* display: flex;
-    justify-content: center;
-    align-items: center; */
->>>>>>> a07cf83ee170bfc40322b5ed8c8c8d20cedf2759
  }
 
 p {
-   /* text-align: center; */
+   text-align: center; 
 
 }
 
