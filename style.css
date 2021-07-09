@@ -79,9 +79,17 @@ section {
 
 }
 
+
+
+footer section
+{
+    padding: .75rem;
+}
+
 .container { 
     margin: 0 auto;
     width: min(95%, 70.5rem);
+    
    }
 
 .containertwo {
