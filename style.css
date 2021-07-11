@@ -93,7 +93,7 @@ footer {
 
 .container { 
     margin: 1rem auto;
-    width: min(100%, 70.5rem);
+    width: min(97%, 70.5rem);
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -108,6 +108,33 @@ footer {
 
 @media (max-width: 40em) {
     .story {
-        width: max(85%);
+        width: max(85%);}
+  
+}
+
+@media (max-width: 40em) {
+    header,
+    section {
+        padding:  1rem;
     }
 }
+
+@media (max-width: 40em) {
+    .saulgoodlogo {
+         width: 50%;
+     }
+
+@media (max-width: 40em) {
+        .august {
+        width: 50%;
+         }
+
+@media (max-width: 40em) {
+    p {
+        font-size: 1.1rem;
+             }
+
+@media (max-width: 40em) {
+    h2 {
+        padding: .10rem;
+             }            
