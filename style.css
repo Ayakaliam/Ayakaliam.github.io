@@ -8,7 +8,7 @@
 
 body {background-color: black; }
 h1 {color: #36c2ff;}
-h2 {color: #ff3636;}
+h2 {color: #36c2ff; font-family: 'acumin-pro-condensed', sans-serif; font-size: .85rem;}
 p {color: #36c2ff; font-family: 'acumin-pro-condensed', sans-serif; font-size: 1.5rem;}
 
 
@@ -25,6 +25,7 @@ footer {
         justify-content: center;
         align-items: center; 
         flex-direction: column;
+        
     }
 
 
@@ -41,22 +42,26 @@ footer {
     
  }
 
-p {
-   /*text-align: center;*/ 
-
-}
 
 img {
+    display: block;
     max-width: 100%;
+    align-items: center;
     
 }
-h2 {
-   text-align: center; 
+
+
+
+
+
+.redtext{
+    color: #ff5341
 }
 
+.yellowtext {
 
-
-
+    color: #f79e28
+}
 .lastbot {
     width: 100%;
 }
@@ -74,25 +79,35 @@ h3 {
 }
 
 header,
-section {
-    padding: 3rem;
+section,
+footer {
+    padding:  1rem 1rem 5rem 1rem;
 
 }
 
+/*section  {
+    border-top: 1px solid #36c2ff;
+}*/
 
 
-footer section
-{
-    padding: 1rem;
-}
 
 .container { 
-    margin: 0 auto;
-    width: min(95%, 70.5rem);
+    margin: 1rem auto;
+    width: min(100%, 70.5rem);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
     
    }
 
-.containertwo {
+.story {
     margin: 0 auto;
     width: max(50%);
-   }
+    border-bottom: 2px solid #36c2ff;
+}
+
+@media (max-width: 40em) {
+    .story {
+        width: max(85%);
+    }
+}
