@@ -2,12 +2,17 @@
 *::before
 *::after {
     box-sizing: border-box;
+
 }
 
 
 body {
     padding: 0;
     margin: 0;
+    font-family: program-narrow, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
     
 }
 
@@ -17,16 +22,17 @@ body {
     justify-content: center;
     align-items: center;
     
-    background-color: rgb(3, 3, 2);
+    background-color: rgb(255, 221, 244);
     height: 100vh;
     width: 100%;
     margin-bottom: 0rem;
     padding-bottom: 0;
+    background-image: url(images/noise.png);
 
 }
 
 .hero-item {
-    background-color: rgb(68, 127, 255);
+    /*background-color: rgb(68, 127, 255);*/
     display: grid;
     align-items: center;
     justify-items: center;
@@ -34,7 +40,15 @@ body {
 }
 
 .hero-text {
-    color: white;
+    margin: 5rem;
+    color: rgb(24, 24, 24);
+    font-family: program-narrow, sans-serif;
+    font-weight: 400;
+    font-size: 8rem;
+    font-style: normal
+    
+    
+
 }
 
 
@@ -44,18 +58,33 @@ body {
         height: 100vh;
         margin-top: 0rem;
         padding-top: 0px;
+        background-image: url(images/noise.png);
 }
 
 
 .floating-nav {
-    background-color: white;
+    /*background-color: rgb(155, 155, 155);*/
     position: fixed;
-    display: inline-block;
     left: 0;
     top: auto;
     right: 0;
     bottom: 0;
     width: 100%;
-    padding: 3rem;
     margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+nav {
+    background-color: rgb(29, 29, 29);
+    padding: 2rem;
+    border-radius: 100vh;
+}
+
+.floating-nav-link {
+    color: white;
+    padding: 0 2rem 0 2rem;
+    text-decoration: none;
 }
