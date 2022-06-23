@@ -1,3 +1,22 @@
+
+:root {
+    --font-200: forma-djr-banner, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    
+    --font-400: forma-djr-banner, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    --font-700: forma-djr-banner, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+    --font-900: forma-djr-banner, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
 *,
 *::before
 *::after {
@@ -9,9 +28,7 @@
 body {
     padding: 0;
     margin: 0;
-    font-family: forma-djr-banner, sans-serif;
-    font-weight: 700;
-    font-style: normal;
+    
 
     
     
@@ -46,10 +63,15 @@ body {
     color: rgb(255, 255, 255);
     text-align: center;
     font-size: 5.5rem;
+    font-family: var(--font-400);
+    font-weight: 800;
     }
 
 p {
     color: white;
+    font-family: var(--font-900);
+    font-weight: 400;
+    font-size: 2rem;
 }
 
 .examples {
@@ -61,6 +83,10 @@ p {
         background-image: url(images/noise.png);
 }
 
+
+.text {
+    font-family: var(--font-400);
+}
 
 .floating-nav {
     /*background-color: rgb(155, 155, 155);*/
