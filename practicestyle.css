@@ -112,10 +112,12 @@ p {
 @keyframes fadeInAnimate {
     0% {
         opacity: 0;
+        transform: translate(0, 10px);
     }
 
     100% {
         opacity: 1;
+        transform: (0);
     }
 }
 
@@ -128,10 +130,10 @@ nav {
 
 .floating-nav-link {
     color: rgb(15, 15, 15);
-    padding: 1rem .75rem;
+    padding: 1rem 2rem;
     text-decoration: none;
     border-radius: 100vh;
-    font-size: .75rem;
+    font-size: 1rem;
     font-family: var(--font-400);
     font-weight: 500;
 }
