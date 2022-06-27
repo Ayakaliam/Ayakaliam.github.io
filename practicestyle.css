@@ -40,22 +40,28 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url(images/heroimage.svg), url(images/noise.png);
+    background-repeat: no-repeat, repeat;
+    background-size: cover, auto;
+    background-position: center center, top left;
     
     background-color: rgb(255, 221, 244);
     height: 100vh;
     width: 100%;
     margin-bottom: 0rem;
     padding-bottom: 0;
-    background-image: url(images/noise.png);
+    
 
 }
 
 .hero-item {
     /*background-color: rgb(68, 127, 255);*/
+   
     display: grid;
     align-items: center;
     justify-items: center;
     padding: 1rem 1rem;
+  
 }
 
 .hero-text {
@@ -75,20 +81,22 @@ p {
     text-align: center;
 }
 
-.examples {
+.simple-container {
         display: flex;
         flex-direction: column;
         align-items: center;
         background-color: beige;
-        height: 100vh;
+        min-height: 500px;
         margin-top: 0rem;
         padding-top: 0px;
         background-image: url(images/noise.png);
 }
 
 
-.text {
+.simple-text {
     font-family: var(--font-400);
+    margin: 3rem 0;
+
 }
 
 .floating-nav {
