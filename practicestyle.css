@@ -89,7 +89,7 @@ body {
     }
 
 p {
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: var(--font-900);
     font-weight: 500;
     font-size: 2rem;
@@ -112,23 +112,43 @@ p {
     }
 }
 
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(images/noise.png);
+    padding-top: 10rem;
+
+}
+
+
 .simple-container {
         display: flex;
         flex-direction: column;
         align-items: center;
-        
+        justify-content: center;
         background-color: rgb(255, 255, 255);
-        min-height: 800px;
+        height: 100vh;
+        width: 100%;
         margin-top: 0rem;
         padding-top: 0px;
-        background-image: url(images/noise.png);
+        
 }
 
 
 .simple-text {
     font-family: var(--font-400);
     font-size: 7rem;
-    margin: 10rem 3rem 3rem 3rem;
+    margin: 2rem 1rem 1rem 1rem;
 
 }
 
@@ -191,23 +211,28 @@ a:hover {
 
 .grid-container {
     display: grid;
-
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    margin: 5rem auto;
+    width: min(90%, 75rem);
     
-  
     
 
    
-
 }
-
+    
+  
 .grid-box {
- 
+    display: grid;
     background-color: black;
-    padding: 2rem;
-    min-width: 200px;
+    padding: 3rem;
     margin: .5rem;
+    max-width: 370px;
+    
+    
+   
     
 }
 
