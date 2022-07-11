@@ -38,15 +38,15 @@ body {
 .hero-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+   
     align-items: center;
     background-image: url(images/heroimage.svg), url(images/noise.png);
     background-repeat: no-repeat, repeat;
     background-size: cover, auto;
-    background-position: center center, top left;
+    background-position: bottom;
     
     background-color: beige;
-    height: 100vh;
+    min-height: 800px;
     width: 100%;
     margin-bottom: 0rem;
     padding-bottom: 10rem;
@@ -61,6 +61,7 @@ body {
     align-items: center;
     justify-items: center;
     padding: 1rem 1rem;
+    width: min(90%, 50rem);
   
 }
 
@@ -92,7 +93,7 @@ p {
     color: rgb(255, 255, 255);
     font-family: var(--font-900);
     font-weight: 500;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
     padding: 0;
     animation: paragraphTextAnimate ease 1s;
@@ -126,7 +127,7 @@ p {
     justify-content: center;
     flex-direction: column;
     background-image: url(images/noise.png);
-    padding-top: 10rem;
+    padding-top: 5rem;
 
 }
 
@@ -144,6 +145,16 @@ p {
         
 }
 
+.logo-text {
+
+    margin: 5rem 1rem 0 1rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 2rem;
+    font-family: var(--font-400);
+    font-weight: 500;
+    
+}
 
 .simple-text {
     font-family: var(--font-400);
@@ -211,7 +222,7 @@ a:hover {
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1rem;
     align-items: center;
     justify-content: center;
