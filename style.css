@@ -67,8 +67,10 @@ footer {
 .video-section { 
     display: flex;
     justify-content: center;
-    align-items: center; 
-    width: 100%;
+    align-items: center;
+    width: 80%;
+    margin: auto auto;
+  
     
 
 }
