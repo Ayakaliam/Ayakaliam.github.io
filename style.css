@@ -165,7 +165,7 @@ footer {
     align-items: center;
     justify-content: center;
     margin: 5rem auto;
-    width: min(90%, 75rem);
+    width: min(90%, 100rem);
     
     
 
@@ -174,13 +174,13 @@ footer {
     
   
 .grid-box {
-    display: grid;
     align-items: center;
     justify-content: center;
     background-color: black;
-    padding: 3rem;
-    margin: .5rem;
+    padding: 2rem;
+    margin: auto auto;
     max-width: 370px;
+    
     text-align: center;
 }
 
