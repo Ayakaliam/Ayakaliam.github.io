@@ -82,11 +82,7 @@ footer {
 
 
 
-.center {
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-}
+
 
 .split {
     display: flex;
@@ -134,7 +130,7 @@ footer {
     display: block;
     max-width: 100%;
     align-items: center;
-    padding: 2rem;
+    padding: 4rem;
     
 }
 
@@ -260,7 +256,7 @@ footer {
                              }    
 
     .video-section {
-        width: 95%;
+        width: 85%;
     }
 }
 
