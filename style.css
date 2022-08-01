@@ -10,7 +10,7 @@ body {background-color: black; }
 h1 {color: #36c2ff;}
 h2 {color: #36c2ff; font-family: 'acumin-pro-condensed', sans-serif; font-size: 1.75rem;}
 h3 {color: #36c2ff; font-family: 'acumin-pro-condensed', sans-serif; font-size: .85rem;}
-p {color: #36c2ff; font-family: 'acumin-pro-condensed', sans-serif; font-size: 1.5rem;}
+p {color: #36c2ff; font-family: 'acumin-pro-condensed', sans-serif; font-size: 1.5rem; }
 
 
 
@@ -204,7 +204,7 @@ footer {
    
     
     margin: 5rem auto;
-    width: min(90%, 100rem);
+    width: min(90%, 75rem);
     
     
 
